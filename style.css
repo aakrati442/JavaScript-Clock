@@ -1,0 +1,45 @@
+/* Custom CSS for Let's See Time */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: black;
+  }
+  
+  .jumbotron {
+    background-color: black;
+    color: #ffffff;
+    border: 3px solid black;
+  }
+  
+  #time {
+    font-size: 36px;
+    font-weight: bold;
+  }
+  
+  .btn-primary {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+  }
+  
+  .btn-primary:hover {
+    background-color: #138496;
+    border-color: #138496;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  .form-control {
+    width: 300px;
+  }
+  
+  @media (max-width: 576px) {
+    .jumbotron {
+      padding: 2rem 1rem;
+    }
+  }
+  
